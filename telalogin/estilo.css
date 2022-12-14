@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/*Imagem de fundo*/
 body{
     background: url(img/paisagem.jpg);
     background-size: cover;
@@ -13,6 +13,7 @@ body{
     height: 100vh;
 }
 
+/*Fundo preto para o conteudo*/
 .container{
     width: 350px;
     background: rgba(0, 0, 0, 0.5);
@@ -28,6 +29,7 @@ h2{
     font-size: 25px;
 }
 
+/* Estilização de inputs*/
 input{
     width: 100%;
     height: 46px;
@@ -66,6 +68,7 @@ input:focus{
     text-align: center;
 }
 
+/* Estilização de botão*/
 button{
     background: transparent;
     padding: 15px 50px;
